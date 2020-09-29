@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+.formulario  { 
+background-image: url("../Imagenes del sitio web/Logo Pagina Web 1.png");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+} 
+
+form {
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+} 	
+
+h2 {
+   color: #FFFFFF;
+	text-align: center;
+	margin: 0px;
+	font-size: 30px;
+	margin-bottom: 20px;
+} 
+
+input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+}
+
+textarea{
+min-height: 100px;
+max-height: 200px;
+	max-width: 100%;
+}
+
+#boton {
+	background: #004E06;
+	color: #FFFFFF;
+	padding: 20px;
+	}
+
+#boton:hover {
+	cursor: pointer;
+	}
+
+h4 {
+   color: #FFFFFF;
+	text-align: center;
+	margin: 0px;
+	font-size: 30px;
+	margin-bottom: 20px;
+	background: rgba(0,0,0,0.4)
+} 
